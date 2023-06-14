@@ -1,0 +1,14 @@
+background-color: red;
+
+.pdp_rogne img{
+clip-path:ellipse(50% 50%);
+}
+
+.haut {
+	top: 600px;
+}
+
+img {
+width : 150px;
+height : 150px;
+}
