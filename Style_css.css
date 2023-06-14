@@ -1,14 +1,143 @@
-background-color: red;
-
-.pdp_rogne img{
-clip-path:ellipse(50% 50%);
+/* 
+ * Pour le premier background:
+ * #091238
+ * 
+ * 
+ * */
+ 
+ 
+ 
+.contenu {
+	position: relative;
+	bottom: 70px;
 }
 
-.haut {
-	top: 600px;
+.normal {
+	color: #20124d;
+	font-family: system-ui;
+	position: relative;
+	right: 60px;
+	font-size: 28px;
+	font-weight: 350;
 }
 
-img {
-width : 150px;
-height : 150px;
+/* Texte 1 normal */
+.n1 {
+	top: 65px;
 }
+
+/* Texte 2 normal */
+.n2 {
+	bottom: 50px;
+}
+
+.grand_texte {
+	font-family: system-ui;
+	position: relative;
+	right: 60px;
+	font-size: 68px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+/* Section 1 sur le titre*/
+.sec1 {
+	height: 100vh;
+	width: 100%;
+	display: flex; /* pour centrer le texte en sec1*/
+	justify-content: center;
+	align-items: center;
+}
+
+/* partie bleu*/
+.sec1::before {
+	content: "";
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	bottom: 5%;
+	background-color: #0f2399; /* #cfe2f3*/
+	z-index: -1;
+	border-radius: 0% 0% 35% 35%;
+	transform: scaleX(1.5);
+}
+
+/* Ombre de la partie bleu*/
+.sec1::after {
+	content: "";
+	position : absolute;
+	height: 100vh;
+	width: 90%;
+	bottom: 1%;
+	z-index: -1;
+	background-color: #989EC5;
+	opacity: 0.3;
+	border-radius: 0% 0% 33% 33%;
+	transform: scaleX(1.7);
+}
+
+	
+
+
+
+
+
+/* Section 2 sur le résumé */
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+	width: 100%;
+}
+
+.pdp {
+	clip-path: ellipse(50% 50%);
+	position: relative;
+	right: 490px;
+	bottom: 240px;
+}
+
+.titre_section {
+	font-family: proxima_nova_bold;
+	font-size: 40px;
+	position: relative;
+	bottom: 260px;
+	text-align: center;
+}
+
+.texte_classique {
+	position: relative;
+}
+
+
+
+
+
+
+/* Section 3 sur les projets */
+.sec3 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	width: 120%;
+	
+	background-color: #4E93AA;
+}
+	
+
+
+
+
+
+
+
+
+
+
