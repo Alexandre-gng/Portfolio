@@ -16,26 +16,26 @@
 	color: #20124d;
 	font-family: system-ui;
 	position: relative;
-	right: 60px;
-	font-size: 28px;
+	right: 60%;
+	font-size: 2vw;
 	font-weight: 350;
 }
 
 /* Texte 1 normal */
 .n1 {
-	top: 65px;
+	top: 3vw;
 }
 
 /* Texte 2 normal */
 .n2 {
-	bottom: 50px;
+	bottom: 2.5vw;
 }
 
 .grand_texte {
 	font-family: system-ui;
 	position: relative;
-	right: 60px;
-	font-size: 68px;
+	right: 17vw;
+	font-size: 3vw;
 	margin: 0;
 }
 
@@ -98,21 +98,24 @@
 
 .pdp {
 	clip-path: ellipse(50% 50%);
-	position: relative;
-	right: 490px;
-	bottom: 240px;
+	position: absolute;
+	left: 170px;
+	top: 850px;
 }
 
 .titre_section {
 	font-family: proxima_nova_bold;
 	font-size: 40px;
-	position: relative;
-	bottom: 260px;
+	position: absolute;
+	top: 800px;
+	left:630px;
 	text-align: center;
 }
 
 .texte_classique {
 	position: relative;
+	margin-bottom: 500px;
+	font-family: system-ui;
 }
 
 
