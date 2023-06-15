@@ -9,7 +9,8 @@
  
 .contenu {
 	position: relative;
-	bottom: 70px;
+	bottom: 4vw;
+	left: 6vw;
 }
 
 .normal {
@@ -17,7 +18,7 @@
 	font-family: system-ui;
 	position: relative;
 	right: 60%;
-	font-size: 2vw;
+	font-size: 3vw;
 	font-weight: 350;
 }
 
@@ -34,8 +35,8 @@
 .grand_texte {
 	font-family: system-ui;
 	position: relative;
-	right: 17vw;
-	font-size: 3vw;
+	right: 23vw;
+	font-size: 4vw;
 	margin: 0;
 }
 
@@ -96,28 +97,65 @@
 	width: 100%;
 }
 
-.pdp {
-	clip-path: ellipse(50% 50%);
-	position: absolute;
-	left: 170px;
-	top: 850px;
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	z-index: 10;
+	flex-direction: column;
+	max-width: 1200px;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	margin-top: 10px;
 }
 
 .titre_section {
 	font-family: proxima_nova_bold;
-	font-size: 40px;
+	position: relative;
+	font-size: 4vw;
+	margin: 0;
+}
+#about_me {
+	position: relative;
+	bottom: 90px;
+	
+}
+
+.lien {
+    display: inline-block;
+    position: relative;
+    color: var(--light_blue);
+}
+
+.pdp img {
+	height: 300px;
+	width: 300px;
+}
+.pdp {
+	clip-path: ellipse(50% 50%);
 	position: absolute;
-	top: 800px;
-	left:630px;
-	text-align: center;
+	display: inline-block;
+	right: 150px;
+	top: 950px;
 }
 
 .texte_classique {
+	position: relative;	
+	font-family: calibre_regular;
+	display: inline-block;
+	line-height: 1.4;
 	position: relative;
-	margin-bottom: 500px;
-	font-family: system-ui;
+	font-size: 1.2vw;
 }
-
+#texte_aboutme {
+	position: relative;
+	bottom: 130px;
+	left: -180px;
+	width: 700px;
+	height: 500px;
+	right: 150px;
+}
 
 
 
@@ -136,6 +174,54 @@
 	
 
 
+
+
+
+
+/* Cas smartphone */
+@media screen and (max-width: 460px) and (min-width: 364px) {
+  .normal {
+    font-size: 8vw;
+    left: 8vw; 
+  } 
+   .grand_texte {
+    font-size: 8vw;
+    left:7vw; 
+  }
+  .content {
+  margin-top: 60vh;
+  } 
+}
+
+/* Cas smartphone 2*/
+@media screen and (max-width: 363px) {
+  .normal {
+    font-size: 8vw;
+    left: 8vw; 
+  } 
+   .grand_texte {
+    font-size: 8vw;
+    left:7vw; 
+  }
+  .content {
+  margin-top: 80vh;
+  } 
+}
+
+/* Cas smartphone 3 (Iphone SE)*/
+@media screen and (max-width: 460px) and (min-width: 280px) and (max-height: 710px) and (min-height: 320px) {
+  .normal {
+    font-size: 8vw;
+    left: 8vw; 
+  } 
+   .grand_texte {
+    font-size: 8vw;
+    left:7vw; 
+  }
+  .content {
+  margin-top: 110vh;
+  } 
+}
 
 
 
