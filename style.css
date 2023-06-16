@@ -23,6 +23,7 @@
 
 
 
+
 .sec2 {
 	height: 100vh;
 	width: 100%;
@@ -31,6 +32,33 @@
 	align-items: center;
 	background-color: white;
 }
+.content2 {
+	position: relative;
+	bottom: 110px;
+}
+.texte_classique{
+	color: #20124d;
+	font-family: system-ui;
+	position: relative;
+	font-size: 1.3vw;
+	font-weight: 350;
+}
+.titre {
+	color: #20124d;
+	font-family: system-ui;
+	position: relative;
+	font-size: 2.5vw;
+}
+.pdp {
+	clip-path: ellipse(50% 50%);
+	position: absolute;
+	display: inline-block;
+	right: 150px;
+	top: 950px;
+}
+
+
+
 
 
 .sec3 {
@@ -52,4 +80,13 @@
 	align-items: center;
 	background-color: #304F8B;
 	position:relative;
+}
+
+.sec5 {
+	height: 100vh;
+	width: 100%;
+	display: flex; /* pour centrer le texte en sec1*/
+	justify-content: center;
+	align-items: center;
+	background-color: white;
 }
