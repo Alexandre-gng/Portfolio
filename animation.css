@@ -1,0 +1,11 @@
+.container {
+	animation: slide_up .9s; 
+}
+@keyframes slide-up {
+	from {
+		opacity: 0.2;
+	}
+	to {
+		opacity 1;
+	}
+}
