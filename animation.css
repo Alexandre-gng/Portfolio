@@ -10,7 +10,6 @@
 	padding: 4em;
 }
 .inner > p{
-	font-size: 3.5em;
 	animation: slide_up .8s ease;
 }
 
@@ -22,7 +21,6 @@
 	border: none;
 	background: #AF4210;
 	animation: slide_up .8s ease;
-	animation-delay: 0;
 }
 @keyframes slide_up {
 	0% {
