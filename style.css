@@ -1,92 +1,54 @@
-.sec1 {
+.s1 {
 	height: 100vh;
-	width: 100%;
-	display: flex; /* pour centrer le texte en sec1*/
-	justify-content: center;
-	align-items: center;
-	background-color: #012D56;
-
+	width: 100vw;
+	background-color: blue ;
 }
-.hello {
-	color: #FFFFFF;
-	font-family: system-ui;
-	font-size: 3vw;
-	font-weight: 350;
-	line-height: .5;
-}
-#AG {
-	color: #FFFFFF;
-	font-size: 3vw;
-	font-weight: 350;
+.titre_section {
+	font-family: proxima_nova_bold;
+	font-size: 4vw;
+	margin-bottom: 6vh;
 }
 
 
 
 
 
-.sec2 {
-	height: 100vh;
-	width: 100%;
-	display: flex; /* pour centrer le texte en sec1*/
-	justify-content: center;
-	align-items: center;
-	background-color: white;
+
+.s2 {
+	clip-path: polygon(0 0,100% 0,100% calc(100% - 70px),0 100%);
+    min-height: 100vh;
+    background-color: white;
 }
-.content2 {
-	position: relative;
-	bottom: 110px;
-}
-.texte_classique{
-	color: #20124d;
-	font-family: system-ui;
-	position: relative;
-	font-size: 1.3vw;
-	font-weight: 350;
-}
-.titre {
-	color: #20124d;
-	font-family: system-ui;
-	position: relative;
-	font-size: 2.5vw;
-}
-.pdp {
+
+#pdp {
 	clip-path: ellipse(50% 50%);
-	position: absolute;
-	display: inline-block;
-	right: 150px;
-	top: 950px;
+	height: 25vw;
+	width: 25vw;
+}
+/*
+@media screen and (max-width: 600px) {
+	.p {
+		
+	}
+	#pdp {
+		height: 20vw;
+		width: 20vw;
+		
+	}
 }
 
+*/
 
 
 
-
-.sec3 {
-	height: 20vh;
-	width: 91.5%;
-	display: flex; /* pour centrer le texte en sec1*/
-	justify-content: center;
-	align-items: center;
-	background-color: #304F8B;
-	transform: rotate(-4deg) scale(1.2, 1);
-	margin: -4vw 0px -4vw 0px;
+.s3 {
+	clip-path: polygon(0 70px,100% 0,100% 100%,0 100%);
+	margin-top: -70px;
+	background-color: red;
+	min-height: 200px;
+	background: blue;
+	height: 200vh
 }
-
-.sec4 {
-	height: 100vh;
-	width: 100%;
-	display: flex; /* pour centrer le texte en sec1*/
-	justify-content: center;
-	align-items: center;
-	background-color: #304F8B;
-	position:relative;
-}
-
-.sec5 {
-	height: 100vh;
-	width: 100%;
-	display: flex; /* pour centrer le texte en sec1*/
-	justify-content: center;
-	align-items: center;
-	background-color: white;
+#some_ptojects {
+	margin-top: 70px; 
 }
