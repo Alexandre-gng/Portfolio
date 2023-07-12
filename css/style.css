@@ -50,6 +50,7 @@ body {
 #boutton1 {
 	color: white;
 	text-decoration:none; 
+	font-size: 30px;
 }
 
 
@@ -66,7 +67,7 @@ body {
 
 }
 #about_me2 {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 #pdp {
 	clip-path: ellipse(50% 50%);
@@ -108,6 +109,7 @@ body {
 }
 #some_projets {
 	margin-top: 65px; 
+	color: white;
 }
 .projet_img {
 	border-radius: 30px;
@@ -126,13 +128,14 @@ body {
 }
 .titre_projet {
 	font-family: proxima_nova_bold;
-	font-size: 3vw;
+	font-size: 2vw;
 	margin-bottom: 0;
 	color: white;
 }
-.texte_projet {
+.text_projet {
 	font-family: system-ui;
-	font-size: 2vw;
+	font-size: 1.5vw;
+	color: white;
 }
 .projet_box {
 	background-color: #4728ad;
@@ -147,7 +150,7 @@ body {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 .projet_spec {
-	font-size: 2.5vw;
+	font-size: 1.3vw;
 	color: #c59532;
 	margin-bottom: 10px;
 }
@@ -200,8 +203,10 @@ body {
 	margin-bottom: 0;
 	color: white;
 }
-.texte_experience {
+.text_experience {
 	font-family: system-ui;
+	font-size: 1.5vw;
+	color: black;
 }
 .experience_box {
 	background-color: #a1c0eb;
