@@ -2,6 +2,7 @@
  *	Css file for animations 
 */
 
+
 /* Hide its elements until '.active' class is added */
 .reveal{
   position: relative;
