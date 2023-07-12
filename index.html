@@ -18,19 +18,29 @@
 
 <body>
 				<section class="s1">
-					<div class = "container reveal fade-bottom">
-						<div class = "">
+					<div class = "container">
+						<div class = "row">
+							<div class="titres">
+								<p id="t1" class="titre1"> Hello, my name is </p>
+								<p id="t2" class = "titre2"> Alexandre Guénégan </p>
+								<p id="t3" class="titre1"> And I'm a computer science student ;)</p>
+							</div>
+						</div>
 						
+						<div class = "boutton_aboutme">
+							<div class = "box text-center">
+								<a id = "boutton1" href="#about_me">About me &#8595; </a>
+							</div>
 						</div>
 					</div>
 				</section>
 
 
 					
-				<section class="s2">
+				<section class="s2" id="about_me">
 					<div class = "container reveal fade-bottom">
 						<div class = "row">
-							<p class = "titre_section text-center"> About me </p>
+							<p id = "about_me2" class = "titre_section text-center"> About me </p>
 						</div>
 	
 						<div class = "row">
@@ -38,17 +48,14 @@
 								<p class = "text-left p"> 
 									Hello, i'm a french student at EFREI PARIS, an engenering school specialized in computer science. 
 									I'm 18 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
-									knowledge of maths and physics. 
-								</p>
+									knowledge of maths and physics. </p>
 								<p class = "text-left p">
 									I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
 									Conway's Game of Life. </p>
 								<p class = "text-left p">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-									aliqua. Mi eget mauris pharetra et ultrices. Lorem sed risus ultricies tristique nulla. Ultrices sagittis orci a 
-									scelerisque purus. In aliquam sem fringilla ut morbi tincidunt. Iaculis at erat pellentesque adipiscing. Hac habitasse
-									 platea dictumst quisque sagittis purus sit.
-								</p>
+									I am always looking for challenges by starting weirds and hards projects, and never limitating them by 
+									my knowledge by doing deep search. Thus, i frequently learn new tools and technologies in order to finish them,
+									and never give up. </p>
 							</div>
 							
 							<div class = "col-md-6 text-md-left text-center">
@@ -63,97 +70,117 @@
 				<section class="s3">
 					<div class = "container">
 						<div class = "row">
-							<p class = "titre_section text-center" id = "some_projects"> Some projects </p>
+							<p class = "titre_section text-center" id = "some_projets"> Some projects </p>
 						</div>
 						
 						<!-- Conway project -->
-						<div class = "row reveal fade-left each_project">
+						<div class = "row reveal fade-left each_projet">
 							<div class = "col-md-6 ">
-								<img class="img-fluid mx-auto d-block project_img" src = "img/Conway_game.png">
+								<img class="img-fluid mx-auto d-block projet_img" src = "img/Conway_game.png">
 							</div>
 							
 							<div class = "col-md-6 ">
 								<p class = "titre_projet">
 										Conway's game of life
 								</p>
-								<p class ="project_spec">
+								<p class ="projet_spec">
 									2023 - Personnal project
 								</p>
-								<div class = "project_box">
+								<div class = "projet_box" id = "box1">
 									<p class = "text_projet">
 										This program is a reproduction of the Conway's game in python,
-										it also permits to change the rules in order to experiment different
-										setup.
+										it also permits to change the rules in order to experiment differents
+										setups.
 									</p>
 								</div>
 							</div>
 						</div>
 						
-					<!-- Philosphy project -->
-					<div class = "row reveal fade-right each_project">
-							<div class = "col-md-6 ">
-								<p class = "titre_projet">
-										Philosphy issue 
-								</p>
-								<p class ="project_spec">
-									2023 - Personnal project
-								</p>
-								<div class = "project_box">
-									<p class = "text_projet">
-										The question raised was simple: if we click on every first link on 
-										randoms wikipedia's pages, does it constantly lead to the 
-										philosphy page ?
-									</p>
-								</div>
-							</div>
-							
-							<div class = "col-md-6 ">
-								<img class="img-fluid mx-auto d-block project_img" src = "img/wikipedia-project_image.png">
-								</div>
-							</div>
-						</div>
-						
-						<!-- Site project -->
-					<div class = "row reveal fade-right each_project">
+					<!-- Site project -->
+					<div class = "row reveal fade-right each_projet">
 							<div class = "col-md-6 ">
 								<p class = "titre_projet">
 										This site 
 								</p>
-								<p class ="project_spec">
+								<p class ="projet_spec">
 									2023 - Personnal project
 								</p>
-								<div class = "project_box">
+								<div class = "projet_box" id ="box2">
 									<p class = "text_projet">
-										During boring hollidays I decided to create my own website, and this
-										portefolio has been created.
+										During boring hollidays I decided to create my own website, and this portefolio has been created. 
 									</p>
 								</div>
 							</div>
 							
 							<div class = "col-md-6 ">
-								<img class="img-fluid mx-auto d-block project_img" src = "img/wikipedia-project_image.png">
-								</div>
+								<a class = "link" href = "https://github.com/Alexandre-gng/Portfolio" target="_blank">
+									<img class="img-fluid mx-auto d-block projet_img" src = "img/wikipedia-project_image.png">
+								</a>
 							</div>
 						</div>
-						
-					</div>
-				</section>
+				</div>
+			</section>
 				
-				
+
+
+
+	
+	<!-- Previous experiences -->
 	<section class = "s4">
 		<div class = "container">
 			<div class = "row">
-				<p class = "titre_section text-center" id = "experiences"> Previous experiences </p>
+				<p class = "titre_section text-center" id = "experience"> Previous experiences </p>
 			</div>
+			
+			<div class = "row reveal fade-left each_experience">
+				<div class = "col-md-6 ">
+					<a class = "link" href = "https://www.ch-versailles.fr/" target="_blank">
+						<img class="img-fluid mx-auto d-block experience_img" src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3sdarchitectes.fr%2Fwp-content%2Fuploads%2F2012%2F12%2FA.-MIGNOT-entree-Urgences--722x470.jpg&f=1&nofb=1&ipt=f404395255662bafadb5ad332d7946a675bcaaa24909f4ceacb4c95192d344e8&ipo=images">
+					</a>
+				</div>
+							
+			<div class = "col-md-6 ">
+				<p class = "titre_experience">
+					This site
+				</p>
+				<p class ="experience_spec">
+					2023 - Summer
+				</p>
+				<div class = "experience_box">
+					<p class = "text_experience">
+						First job, at the psychiatric hospital André Mignot, as a cleaner during summer.
+					</p>
+				</div>
+			</div>
+		</div>
 		</div>
 	</section>
 
 
-
+	<!-- Contact Me -->
 	<section class = "s5">
 		<div class = "container">
 			<div class = "row">
 				<p class = "titre_section text-center" id = "contact_me"> Contact me </p>
+			</div>
+			<div class = "social_contact">
+				<div class = "box_social reveal fade-left">
+					<a class = "social_link" href = "https://www.linkedin.com/in/alexandre-gu%C3%A9n%C3%A9gan-187b4624b/" target="_blank">
+						<img id = "linkedin" src="img/linkedin_logo.png" alt="linkedin contact">
+					</a> 
+				</div>
+				
+				<div class = "box_social reveal fade-left ">
+					<a class = "social_link" href = "https://github.com/Alexandre-gng/" target="_blank">
+						<img id = "github" src="img/github_logo.png" alt="github contact">
+					</a>
+				</div>
+				
+				<div class = "box_social reveal fade-left">
+					<a class = "social_link" href = "mailto:alexandre.guenegan@gmail.com" target="_blank">
+						<img id = "email" src="img/email_logo.png" alt="email contact">
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -162,8 +189,17 @@
 
 	<section class = "s6">
 		<div class = "container">
-			<div class = "row">
-				<p class = "titre_section text-center" id = "about_site"> About this site </p>
+			<div class="row">
+				<div class="col-md-6 ">
+					<p class ="final_text">
+						Made by Alexandre Guénégan using HTML, CSS, some JavaScript, and Bootstrap.
+					</p>
+				</div>
+				<div class = "col-md-6">
+					<p class= "final_text">
+						© 2023 Alexandre Guénégan 
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -171,3 +207,4 @@
 </body>
 
 </html>
+
