@@ -77,7 +77,10 @@ body {
 	top: 30px;
 	left: 60px;
 }
-
+.lien {
+	text-decoration:none; 
+	color: grey;
+}
 @media screen and (max-width: 600px) {
 	.s2 {
 		height: 150vh;
@@ -156,6 +159,12 @@ body {
 }
 .each_projet {
 	margin-bottom: 45px;
+}
+video {
+	border-radius: 50px;
+	max-width: 100%;
+	height: auto;
+}
 }
 @media screen and (max-width: 600px) {
 	.titre_projet {
