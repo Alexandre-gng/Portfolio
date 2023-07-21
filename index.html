@@ -3,228 +3,118 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Portefolio A.G</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.38" />
 	<link rel="icon" href="img/icon_site.png">
 	
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/animation.css">
+
+	<!-- Writting police -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 	
-	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-	<script src="js/app.js"></script>
 </head>
 
 <body>
-				<section class="s1">
-					<div class = "container">
-						<div class = "row">
-							<div class="titres">
-								<p id="t1" class="titre1"> Hello, my name is </p>
-								<p id="t2" class = "titre2"> Alexandre Guénégan </p>
-								<p id="t3" class="titre1"> And I'm a computer science student ;)</p>
-							</div>
-								<div class = "box bouton text-center" style="width:120px">
-									<a class = "bouton1" href="#about_me">
-										About me &#8595;
-									</a>
-								</div>
-							
-							<!--
-							<div class = "boutton_aboutme">
-								<div class = "box text-center">
-									<a id = "boutton1" href="#about_me">About me &#8595; </a>
-								</div>
-							</div>
-							-->
-						</div>
-						
-						
-					</div>
-				</section>
-
-
-					
-				<section class="s2" id="about_me">
-					<div class = "container reveal fade-bottom">
-						<div class = "row">
-							<p id = "about_me2" class = "titre_section text-center"> About me </p>
-						</div>
-	
-						<div class = "row">
-							<div class = "col-md-6 ">
-								<p class = "text-left p"> 
-									Hello, i'm a french student at 
-									<a class = "lien" href = "https://www.efrei.fr/" target="_blank" >
-										EFREI PARIS
-									</a>, an engenering school specialized in computer science. 
-									I'm 18 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
-									knowledge of maths and physics. </p>
-								<p class = "text-left p">
-									I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
-									Conway's Game of Life (<a class="lien" href = "#projects">see my projects</a>).</p>
-								<p class = "text-left p">
-									I am always looking for challenges by starting weirds and hards projects, and never limitating them by 
-									my knowledge by doing deep search. Thus, i frequently learn new tools and technologies in order to finish them,
-									and never give up. </p>
-							</div>
-							
-							<div class = "col-md-6 text-md-left text-center">
-								<img id = "pdp" class="img-fluid mx-auto d-block" src = "img/photo_de_profil.jpg">
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-
-				<section class="s3" id = "projects">
-					<div class = "container">
-						<div class = "row">
-							<p class = "titre_section text-center" id = "some_projets"> Some projects </p>
-						</div>
-						
-						<!-- Conway project -->
-						<div class = "row reveal fade-left each_projet">
-							<div class = "col-md-6 ">
-								<img class="img-fluid mx-auto d-block projet_img" src = "img/Conway_game.png">
-							</div>
-							
-							<div class = "col-md-6 ">
-								<p class = "titre_projet">
-										Conway's game of life
-								</p>
-								<p class ="projet_spec">
-									2023 - Personnal project
-								</p>
-								<div class = "projet_box">
-									<p class = "text_projet">
-										This program is a reproduction of the Conway's game in python,
-										it also permits to change the rules in order to experiment differents
-										setups.
-									</p>
-								</div>
-							</div>
-						</div>
-						
-					<!-- Site project -->
-					<div class = "row reveal fade-right each_projet">
-							<div class = "col-md-6 ">
-								<p class = "titre_projet">
-										This site 
-								</p>
-								<p class ="projet_spec">
-									2023 - Personnal project
-								</p>
-								<div class = "projet_box" id ="box2">
-									<p class = "text_projet">
-										During boring hollidays I decided to create my own website, and this portefolio has been created. 
-									</p>
-								</div>
-							</div>
-							
-							<div class = "col-md-6 ">
-								<a class = "link" href = "https://github.com/Alexandre-gng/Portfolio" target="_blank">
-									<video width="448" height="189" class = "video" widthloop muted autoplay>
-										<source src="video/video_portfolio.mp4" type="video/mp4">
-									</video>
-								</a>
-							</div>
-						</div>
-					</div>
-				</section>
-				
-
-
-
-	
-	<!-- Previous experiences -->
-	<section class = "s4">
-		<div class = "container">
-			<div class = "row">
-				<p class = "titre_section text-center" id = "experience"> Previous experiences </p>
+    <div class="section1">
+            <div class = "titres">
+                <p class = "titre1">
+                    Hello, my name is
+                </p>
+                <p class = "titre2">
+                    Alexandre Guénégan
+                </p>
+                <p class = "titre1">
+                    and I'm a computer science student ;)
+                </p>
+            </div>
+    </div>
+    
+	<div class = "section2">
+		<div class = "content2">
+			<p class = "titresec">
+				About me
+			</p>
+			<div class = "aboutme_content">
+					<p class = "aboutme_text">
+						Hello, i'm a french student at 
+					<a class = "lien" href = "https://www.efrei.fr/" target="_blank" > EFREI PARIS </a>
+						, an engenering school specialized in computer science. 
+						I'm 18 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
+						knowledge of maths and physics.
+						<br> <br>
+						I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
+						Conway's Game of Life (<a class="lien" href = "#projects">see my projects</a>).
+						<br> <br>
+						I am always looking for challenges by starting weirds and hards projects, and never limitating them by 
+						my knowledge by doing deep search. Thus, i frequently learn new tools and technologies in order to finish them,
+						and never give up. </p>
+				<div class = "photo">
+					<img id = "pdp" src = "img/icon_site.png" alt = "profil picture">
+				</div>
 			</div>
 			
-			<div class = "row reveal fade-bottom each_experience">
-				<div class = "col-md-6 ">
-					<a class = "link" href = "https://www.ch-versailles.fr/" target="_blank">
-						<img class="img-fluid mx-auto d-block experience_img" src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3sdarchitectes.fr%2Fwp-content%2Fuploads%2F2012%2F12%2FA.-MIGNOT-entree-Urgences--722x470.jpg&f=1&nofb=1&ipt=f404395255662bafadb5ad332d7946a675bcaaa24909f4ceacb4c95192d344e8&ipo=images">
-					
+		</div>
+	</div>
+	
+	<div id = "projects" class = "section3">
+		<div class = "content3">
+			<p class = "titresec">
+				my projects
+			</p>
+			<div class = "project">
+				<div class = "project_box">
+					<p class = "project_title">
+						Conway's game of life
+					</p>
+					<p class = "project_year">
+						2023 - Personnal project
+					</p>
+					<div class = "text_box">
+						<p class = "project_text">
+							This program is a reproduction of the Conway's game in python, it also permits to change the rules in order to experiment differents
+							setups.
+						</p>
+					</div>
+				</div>
+				<div class = "project_video">
+					<a href = "https://github.com/Alexandre-gng/Portfolio" target="_blank">
+						<video width="448" height="189" class = "video" loop muted autoplay>
+							<source src="video/video_portfolio.mp4" type="video/mp4">
+						</video>
 					</a>
 				</div>
-							
-			<div class = "col-md-6 ">
-				<p class = "titre_experience">
-					This site
-				</p>
-				<p class ="experience_spec">
-					2023 - Summer
-				</p>
-				<div class = "experience_box">
-					<p class = "text_experience">
-						First job, at the psychiatric hospital André Mignot, as a cleaner during summer.
-					</p>
-				</div>
 			</div>
-		</div>
-		</div>
-	</section>
-
-
-	<!-- Contact Me -->
-	<section class = "s5">
-		<div class = "container">
-			<div class = "row">
-				<p class = "titre_section text-center" id = "contact_me"> Contact me </p>
-			</div>
-			<div class = "social_contact">
-					<a class = "social_link" href = "https://www.linkedin.com/in/alexandre-gu%C3%A9n%C3%A9gan-187b4624b/" target="_blank">
-						<div class = "box_social reveal fade-left">
-							<img id = "linkedin" src="img/linkedin_logo.png" alt="linkedin contact">
-						</div>
-					</a> 
-				
-				
-				
-					<a class = "social_link" href = "https://github.com/Alexandre-gng/" target="_blank">
-						<div class = "box_social reveal fade-left ">
-							<img id = "github" src="img/github_logo.png" alt="github contact">
-						</div>
+			
+			<div class = "project">
+				<div class = "project_video order2">
+					<a href = "https://github.com/Alexandre-gng/Portfolio" target="_blank">
+						<video width="448" height="189" class = "video" loop muted autoplay>
+							<source src="video/video_portfolio.mp4" type="video/mp4">
+						</video>
 					</a>
-				
-				
-				
-					<a class = "social_link" href = "mailto:alexandre.guenegan@gmail.com" target="_blank">
-						<div class = "box_social reveal fade-left">
-							<img id = "email" src="img/email_logo.png" alt="email contact">
-						</div>
-					</a>
-				
-			</div>
-		</div>
-	</section>
-
-
-
-	<section class = "s6">
-		<div class = "container">
-			<div class="row">
-				<div class="col-md-6 ">
-					<p class ="final_text">
-						This (not really) responsive site was made by Alexandre Guénégan using HTML, CSS, some JavaScript, and Bootstrap.
-					</p>
 				</div>
-				<div class = "col-md-6">
-					<p class= "final_text">
-						© 2023 Alexandre Guénégan 
+				
+				<div class = "project_box order1">
+					<p class = "project_title">
+						This site
 					</p>
+					<p class = "project_year">
+						2023 - Personnal project
+					</p>
+					<div class = "text_box">
+						<p class = "project_text">
+							During boring hollidays I decided to create my own website, and this portefolio has been created. 
+						</p>
+					</div>
 				</div>
 			</div>
+			
+			
+			
 		</div>
-	</section>
-
+	</div>
 </body>
-
-</html>
-
