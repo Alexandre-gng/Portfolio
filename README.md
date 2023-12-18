@@ -1,3 +1,3 @@
 # Site-CV
 
-Basically my portefolio
+My portefolio
