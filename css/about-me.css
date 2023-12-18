@@ -1,0 +1,104 @@
+.sec2 {
+    overflow: auto;
+	min-height: 80vh;
+    background-color: white;
+    clip-path: polygon(0 50px,100% 0,100% 100%,0 100%);
+    margin-top: -51px;
+}
+.sec2 h1 {
+    text-align: center;
+    margin-top: 3.1415926535%;
+    margin-bottom: 3.2%;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+}
+.sec2 a {
+    text-decoration: none;
+    color: black;
+}
+.sec2 a:hover {
+    background: #a0c4eb;
+    transition: 0.25s ease-in-out;
+}
+.sec2 p {
+    text-align: justify;
+    color: rgb(40, 38, 38);
+    padding-bottom: 29px;
+    width: 50vw;
+    margin-right: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    line-height: 1.45;
+}
+.sec2 img {
+    height: 40vh;
+    width: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .about-me-paragraphes {
+    display: flex;
+    flex-direction: column;
+}
+.about-me-pres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px){
+    .sec2 {
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+	    min-height: 90vh;
+        background-color: white;
+    }
+    .sec2 p {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 1.3em;
+    }
+    .sec2 img {
+        height: 30vh;
+        width: 30vh;
+    }
+    .about-me-pres {
+        align-items: center;
+        display: flex;
+        margin-right: 50px;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .sec2 {
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+	    min-height: 90vh;
+        background-color: white;
+    }
+    .sec2 p {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 1.3em;
+        width: 70vw;
+    }
+    .sec2 img {
+        height: 20vh;
+        width: 20vh;
+    }
+    .sec2 .content {
+        margin-top: 80px;
+    }
+    .about-me-pres {
+        align-items: center;
+        display: flex;
+        margin-right: 50px;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+}

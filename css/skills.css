@@ -1,0 +1,156 @@
+.sec5 {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),0 100%);
+    clip-path: polygon(0 50px,100% 0,100% 100%,0 100%);
+    margin-top: 0px;
+    background-color: #4d89c9;
+    overflow: auto;
+	min-height: 110vh;
+}
+.sec5 h1 {
+    text-align: center;
+    margin-top: 6.1415926535%;
+    margin-bottom: 3.2%;
+    font-size: 4em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.sec5 .skills-box-title {
+    color: black;
+    font-size: 1.80em;
+    text-align: center;
+}
+.sec5 .skills-content {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.sec5 .skills-box {
+    color: white;
+    border-radius: 50px;
+    background-color: white;
+    min-height: 60vh;
+    min-width: 60vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 40px;
+    overflow: auto;
+	min-height: 60vh;
+}
+.sec5 .skills-mini-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 40px;
+    justify-content: center;
+}
+.sec5 .skills-box-logo {
+    background-color: white;
+    height: 170px;
+    border-radius: 15px;
+    width: 140px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+.sec5 .skills-box-logo-content {
+    position: relative;
+    top: 10px;
+}
+.sec5 .skills-box-logo p {
+    position:absolute;
+    bottom:0;
+    font-size: 1.2em;
+}
+.sec5 .skills-box p {
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:relative;
+}
+.sec5 .skills-box-logo:hover {
+    transition: 0.4s ease;
+    box-shadow: 0px 0px 7px black;
+}
+.sec5 .contact-content {
+    gap: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#html5-logo {
+    height: 115px;
+    width: 115px;
+    margin: auto;
+}
+#css-logo {
+    height: 120px;
+    width: 105px;
+    margin: auto;
+}
+#bootstrap-logo {
+    height: 110px;
+    width: 120px;
+    margin: auto;
+}
+#c-logo {
+    position: relative;
+    top: 10px;
+    height: 110px;
+    width: 100px;
+    margin: auto;
+}
+#c-logo-text {
+    position: relative;
+    top: 17px;
+}
+#python-logo {
+    height: 110px;
+    width: 110px;
+    margin: auto;
+}
+@media screen and (min-width: 1200px) {
+    .sec5 .skills-content {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width: 580px) {
+    .sec5 .skills-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec5 .skills-box{
+        color: white;
+        border-radius: 50px;
+        background-color: white;
+        min-height: 30vh;
+        min-width: 40vh;
+        margin-bottom: 60px;
+        padding: 40px;
+        overflow: auto;
+    }
+}   
+
+@media screen and (max-width:580px) {
+    .sec5 .skills-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec5 .skills-box{
+        color: white;
+        border-radius: 50px;
+        background-color: white;
+        min-height: 10vh;
+        min-width: 10vh;
+        margin-bottom: 60px;
+        padding: 40px;
+        overflow: auto;
+    }
+    .sec5 .skills-mini-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}   

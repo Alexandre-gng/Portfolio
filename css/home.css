@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    max-width: 1920px;
+}
+
+.sec1 {
+    padding-top: 150px;
+    background-color: #5ca2ed;
+    min-height: 90vh;
+}
+.sec1 .container {
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+}
+.sec1 h1 {
+    color: white;
+    font-size: 7em;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+.sec1 p {
+    color: white;
+    font-size: 2.3em;
+    margin-top: 20px;
+    position: relative;
+    top: 30%;
+}
+.sec1 a {
+    color: white;
+}
+.sec1 a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #5ca2ed; 
+    color: white;
+    box-shadow: 0px 2px 3px black;
+    width: 07vw;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    text-align: center;
+    transition: 0.15s ease-in;
+    position: relative;
+    left: 10%;
+    margin-top: 40px;
+}
+.sec1 a:hover {
+    color: #5ca2ed;
+    background-color: white;
+    width: 07.2vw;
+}
+#hello_text2 {
+    top: 41%;
+    left: 10%;
+}
+#hello_text1 {
+    top: 28%;
+    left: 10%;
+}
+@media screen and (min-width: 1500px) {
+    .sec1 h1 {
+        color: white;
+        font-size: 7em;
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+    .sec1 p {
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sec1 h1{
+        font-size: 3em;
+    }
+    .sec1 p {
+        font-size: 1em;
+    }
+}
+/*
+.sec1 .container
+{
+    height: 100%;
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec1 h1 {
+    color : green;
+    font-size: 8em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
+*/

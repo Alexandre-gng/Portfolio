@@ -1,0 +1,97 @@
+.sec6 {
+    margin-top: 0px;
+    background-color: white;
+    overflow: auto;
+	min-height: 50vh;
+    align-items: center;
+}
+.contact-all-box {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+    justify-content: center;
+}
+.sec6 .contact-content {
+    align-items: center;
+    margin: auto
+}
+.sec6 h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 3.2%;
+    font-size: 4em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.sec6 .contact-box {
+    min-height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+#logo-linkedin {
+    height: 100px;
+    width: 100px;
+}
+#logo-github {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    left: 6px;
+}
+#logo-email {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    left: 1px;
+}
+
+#last-box {
+    margin-bottom: 50px;
+}
+
+.contact-box:hover {
+    transition: 0.4s ease;
+    box-shadow: 0px 0px 7px black;
+}
+
+@media screen and (max-width:580px) {
+    .sec6 .contact-all-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+}
+
+
+/* Last setion */
+.sec7 {
+    margin-top: 0px;
+    background-color: #4d89c9;
+    overflow: auto;
+	min-height: 15vh;
+    text-align: center;
+    overflow: hidden
+}
+
+.sec7 p {
+    text-align: center;
+    color: rgb(40, 38, 38);
+    padding-bottom: 29px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.45;
+    position: relative;
+    top: 40px;
+    overflow: hidden;
+}
+.sec7 a {
+    text-decoration: none;
+    color:  rgb(40, 38, 38);
+}

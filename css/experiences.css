@@ -1,0 +1,214 @@
+.sec4 {
+    clip-path: polygon(0 50px,100% 0,100% 100%,0 100%);
+    margin-top: -51px;
+    background-color: white;
+    overflow: auto;
+	min-height: 60vh;
+}
+.sec4 h1 {
+    text-align: center;
+    margin-top: 6.1415926535%;
+    margin-bottom: 3.2%;
+    font-size: 4em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.sec4 h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+}
+.sec4 .experiences-box-year {
+    font-size: 1.5em;
+    color: rgb(214, 149, 27)
+}
+.sec4 .experiences {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.sec4 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+.sec4 img {
+    width: 494px;
+}
+.sec4 .p1 .image {
+    order: 2;
+    margin-left: 0;
+    position: relative;
+}
+.sec4 .p1 .experiences-box {
+    order: 1;
+}
+
+.sec4 .p2 .image {
+    order: 1;
+}
+.sec4 .p2 .experiences-box {
+    order: 2;
+}
+.sec4 img:hover {
+    transition: 0.4s ease-out;
+    box-shadow: 0px 0px 7px black;
+}   
+.sec4 .experiences-box {
+    margin-top: 50px;
+    align-items: center;
+    order: 1;
+}
+.sec4 .experiences-box-text {
+    padding: 10px 30px;
+    background-color: #4d89c9; 
+    color: white;
+    box-shadow: 0px 2px 3px black;
+    overflow: auto;
+	min-height: 3vh;
+    width: 40vw;
+    border: solid;
+    font-size: 1.60em;
+    border-color: #4d89c9;
+    border-radius: 15px;
+    border-width: 2px;
+    text-align: center;
+    align-items: center;
+    transition: 0.15s ease-in;
+}
+.sec4 .experiences-box-text:hover {
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 7px black;
+}   
+.sec4 .experiences-image {
+    display: none;
+}
+
+@media screen and (min-width:1200px) {
+    .sec4 .p1 .experiences-box {
+        position: relative;
+        left: 40px;
+        bottom: 10px;
+        z-index: 1;
+    }
+    .sec4 .p1 img {
+        position: relative;
+        right: 20px;
+    }
+    .sec4 .p1 .experiences-box {
+        position: relative;
+        left: 40px;
+        bottom: 10px;
+        z-index: 1;
+    }
+    .sec4 .p1 img {
+        position: relative;
+        right: 20px;
+    }
+    .sec4 .p2 .experiences-box {
+        position: relative;
+        right: 40px;
+        bottom: 10px;
+        z-index: 1;
+    }
+    .sec4 .p2 img {
+        position: relative;
+        left: 20px;
+    }
+}
+
+
+@media screen and (max-width:1200px) and (min-width: 700px) {
+    .sec4 .experiences {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec4 .experiences-box-text {
+        align-items: center;
+        padding-top: 110px;
+        text-justify:justify;
+    }
+    .sec4 .experiences-box {
+        order: 2;
+    }
+    .sec4 .p2 .experiences-box {
+        margin-top: 0;
+    }
+    .sec4 img {
+        margin-left: 0px;
+        margin-top: 30px;
+        order: 1;
+    }
+    .sec4 .p1 .image {
+        order: 2;
+        margin-left: 0;
+        position: relative;
+    }
+    .sec4 .p1 .experiences-box {
+        order: 1;
+    }
+    .sec4 .p2 .image {
+        order: 2;
+    }
+    .sec4 .p2 .experiences-box {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .sec4 .image {
+        display: none;
+    }
+    .sec4 h1 {
+        margin-top: 80px;
+    }
+    .sec4 .experiences {
+        align-items: center;
+        text-align: center;
+    }
+    .sec4 .experiences-box-text {
+        align-items: center;
+        margin: auto;
+        border: 0;
+        font-size: 1em;
+        text-align:center;
+        min-height: 45vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 30%;
+
+        background: url("/content/img/background-photo_experience1.JPG");
+    }
+    .sec4 .experiences-box {
+        align-items: center;
+        text-align: center;
+    }
+    .sec4 .experiences-image {
+        padding: 10px 30px;
+        background-color: #467ebb; 
+        color: white;
+        box-shadow: 0px 2px 3px black;
+        width: 40vw;
+        height: 10vh;
+        text-align: center;
+        transition: 0.15s ease-in;
+        margin-top: 40px;
+        z-index: 2;
+    }
+    .sec4 img {
+        z-index: 1;
+        height: 200px;
+        width: 400px;
+        display: inline ;
+        filter: opacity(0.70);
+        filter: blur(4px);
+        box-shadow: 0px 10px 23px black;;
+    }
+}

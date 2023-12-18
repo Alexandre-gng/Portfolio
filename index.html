@@ -7,114 +7,323 @@
 	<title> Portefolio A.G</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.38" />
-	<link rel="icon" href="img/icon_site.png">
+	<link rel="icon" href="./img/icon_site.png">
 	
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Writting police -->
+	<!--Fonts google-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		
+	<!-- CSS files-->
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/about-me.css">
+	<link rel="stylesheet" href="css/projects.css">
+	<link rel="stylesheet" href="css/experiences.css">
+	<link rel="stylesheet" href="css/skills.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<!-- JS files-->
+	<link rel="stylesheet" href="js/interactions.js">
 </head>
 
 <body>
-    <div class="section1">
-            <div class = "titres">
-                <p class = "titre1">
-                    Hello, my name is
-                </p>
-                <p class = "titre2">
-                    Alexandre Guénégan
-                </p>
-                <p class = "titre1">
-                    and I'm a computer science student ;)
-                </p>
-            </div>
-    </div>
-    
-	<div class = "section2">
-		<div class = "content2">
-			<p class = "titresec">
-				About me
-			</p>
-			<div class = "aboutme_content">
-					<p class = "aboutme_text">
-						Hello, i'm a french student at 
-					<a class = "lien" href = "https://www.efrei.fr/" target="_blank" > EFREI PARIS </a>
-						, an engenering school specialized in computer science. 
-						I'm 18 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
-						knowledge of maths and physics.
-						<br> <br>
-						I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
-						Conway's Game of Life (<a class="lien" href = "#projects">see my projects</a>).
-						<br> <br>
-						I am always looking for challenges by starting weirds and hards projects, and never limitating them by 
-						my knowledge by doing deep search. Thus, i frequently learn new tools and technologies in order to finish them,
-						and never give up. </p>
-				<div class = "photo">
-					<img id = "pdp" src = "img/icon_site.png" alt = "profil picture">
-				</div>
+	<header id ="navbar">
+		<nav class = "navbar">
+			<a href="#home" class="logo">:)
+				
+			</a>
+				
+			<div class="nav-links">
+				<ul>
+					<li><a href ="#home">Home</a></li>
+					<li><a href ="#about-me">About Me</a></li>
+					<li><a href ="#projects">Projects</a></li>
+					<li><a href ="#experiences">Experiences</a></li>
+					<li><a href ="#my-skills">My skills</a></li>
+					<li><a href ="#contact">Contact</a></li>
+				</ul>
 			</div>
+			<img src="content/img/hamburger_menu_logo.png" alt="menu hamburger logo" class="menu-hamburger">
+		</nav>
+	</header>
+
+	<div class="sec1" id = "home">
+		<div class = "container">
+			<p class ="hello_text" id="hello_text1">Hello, my name is </p>
+			<h1> Alexandre Guenegan</h1>
+			<p class ="hello_text" id ="hello_text2">and I'm a french computer science student.</p>
 			
+			<a href="#about-me">
+				About me 
+			</a>
 		</div>
 	</div>
-	
-	<div id = "projects" class = "section3">
-		<div class = "content3">
-			<p class = "titresec">
-				my projects
-			</p>
-			<div class = "project">
-				<div class = "project_box">
-					<p class = "project_title">
-						Conway's game of life
+
+	<div class="sec2" id ="about-me">
+		<div class="content">
+			<div class = "about-me-titre">
+				<h1> About me</h1>
+			</div>
+			<div class="about-me-pres">
+				<div class = "about-me-paragraphes">
+					<p> 
+						Hello, i'm a french student at 
+						<a class="lien" href="https://www.efrei.fr/" target="_blank">
+							EFREI PARIS</a>, an engineering school specialized in computer science. 
+						I'm 18 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
+						knowledge of maths and physics. 
 					</p>
-					<p class = "project_year">
-						2023 - Personnal project
+					<p>
+						I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
+						Conway's Game of Life (<a class="lien" href="#projects">see my projects</a>).
 					</p>
-					<div class = "text_box">
-						<p class = "project_text">
-							This program is a reproduction of the Conway's game in python, it also permits to change the rules in order to experiment differents
-							setups.
-						</p>
-					</div>
+					<p>
+						I am always looking for challenges by starting weirds and hards projects, and never limitating them by 
+						my knowledge by doing deep search. Thus, i frequently learn new tools and technologies in order to finish them,
+						and never give up. 
+					</p>
 				</div>
-				<div class = "project_video">
-					<a href = "https://github.com/Alexandre-gng/Portfolio" target="_blank">
-						<video width="448" height="189" class = "video" loop muted autoplay>
-							<source src="video/video_portfolio.mp4" type="video/mp4">
-						</video>
-					</a>
+				<div class="about-me-photo">
+					<img src="content/img/icon_site.png">
 				</div>
 			</div>
-			
-			<div class = "project">
-				<div class = "project_video order2">
-					<a href = "https://github.com/Alexandre-gng/Portfolio" target="_blank">
-						<video width="448" height="189" class = "video" loop muted autoplay>
-							<source src="video/video_portfolio.mp4" type="video/mp4">
-						</video>
-					</a>
-				</div>
-				
-				<div class = "project_box order1">
-					<p class = "project_title">
+		</div>	
+	</div>
+
+	<div class="sec3" id ="projects">
+		<div class="content">
+			<div class ="projects-titre">
+				<h1>
+					Projects
+				</h1>
+			</div>
+			<div class="project p1">
+				<div class="project-box">
+					<h2>
 						This site
+					</h2>
+					<p class="project-box-year"> 
+						2023 • Personnal project
 					</p>
-					<p class = "project_year">
-						2023 - Personnal project
+					<p class= "project-box-text">
+						During boring holidays I decided to create my own website, and this portefolio has been created. 
+					<p>
+				</div>
+				<div class="video">
+					<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank">
+						<video id="vid1" width="448" height="189" class="video" loop="" muted="" autoplay="">
+							<source src="content/video/video_portfolio.mp4" type="video/mp4">
+							Your browser do not support html5 video
+						</video>
+					</a>
+				</div>
+				<div class="project-image">
+					<div class="project-image-cadre">
+						<p class= "project-box-text">
+							During boring holidays I decided to create my own website, and this portefolio has been created. 
+						<p>
+					</div>
+					<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank"></a>
+						<img src="content/img/project-site.png" alt="image project portfolio">
+					</a>
+				</div>
+			</div>
+
+
+			<div class="project p2">
+				<div class="project-box">
+					<h2>
+						This site
+					</h2>
+					<p class="project-box-year"> 
+						2023 • Personnal project
 					</p>
-					<div class = "text_box">
-						<p class = "project_text">
-							During boring hollidays I decided to create my own website, and this portefolio has been created. 
-						</p>
+					<p class= "project-box-text">
+						During boring holidays I decided to create my own website, and this portefolio has been created. 
+					<p>
+				</div>
+				<div class="video">
+					<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank">
+						<video id="vid1" width="448" height="189" class="video" loop="" muted="" autoplay="">
+							<source src="content/video/video_portfolio.mp4" type="video/mp4">
+							Your browser do not support html5 video
+						</video>
+					</a>
+				</div>
+				<div class="project-image">
+					<div class="project-image-cadre">
+						<p class= "project-box-text">
+							During boring holidays I decided to create my own website, and this portefolio has been created. 
+						<p>
+					</div>
+					<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank"></a>
+						<img src="content/img/project-site.png" alt="image project portfolio">
+					</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="sec4" id ="experiences">
+		<div class="content">
+			<h1>Experiences</h1>
+		</div>
+		
+		<div class="experiences p1">
+			<div class="experiences-box">
+				<h2>
+					This site
+				</h2>
+				<p class="experiences-box-year"> 
+					2023 • Personnal project
+				</p>
+				<p class= "experiences-box-text">
+					First job, at the psychiatric hospital André Mignot, as a cleaner during summer. 
+				<p>
+			</div>
+			<div class="image">
+				<a href="https://www.ch-versailles.fr/accueil.aspx" target="_blank"></a>
+					<img src="/content/img/photo_experience1.JPG" alt="hospital image">
+				</a>
+			</div>
+			<div class="experiences-image">
+				<div class="experiences-image-cadre">
+					<p class= "experiences-box-text">
+						First job, at the psychiatric hospital André Mignot, as a cleaner during summer. 
+					<p>
+				</div>
+				<a href="https://www.ch-versailles.fr/accueil.aspx" target="_blank"></a>
+					<img src="/content/img/photo_experience1.JPG" alt="hospital image">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="sec5" id ="my-skills">
+		<div class="content">
+			<h1>My skills</h1>
+			<div class="skills-content">
+				<div class="skills-box" id="skills-software">
+					<p class="skills-box-title">Software development</p>
+					<div class="skills-mini-box">
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+							<div class="skills-box-logo">
+								<img id = "c-logo" src="/content/img/skills/c_logo.png" alt="C logo">
+								<p id ="c-logo-text" class="skills-mini-title">
+									C
+								</p>
+							</div>
+						</a>
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/python_(programming_language)" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id = "python-logo" src="/content/img/skills/python_logo.png" alt="C logo">
+									<p class="skills-mini-title">
+										Python
+									</p>
+								</div>	
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="skills-box">
+					<p class="skills-box-title">Web development</p>
+					<div class="skills-mini-box">
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id = "html5-logo"src="/content/img/skills/html5_logo.png" alt="html5 logo">
+									<p class="skills-mini-title">
+										HTML
+									</p>
+								</div>	
+							</div>
+						</a>
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id="css-logo" src="content/img/skills/css3_logo.png" alt="CSS3 logo">
+									<p class="skills-mini-title">
+										CSS
+									</p>
+								</div>
+							</div>
+						</a>
+						<a class="skills_link" href="https://getbootstrap.com/" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id="bootstrap-logo" src="/content/img/skills/bootstrap_logo.png" alt="CSS3 logo">
+									<p class="skills-mini-title">
+										Bootstrap
+									</p>
+								</div>	
+							</div>
+						</a>
+					</div>	
+				</div>
+			</div>
+			<div class="skills-content">
+				<div class="skills-box" id="skills-software">
+					<p class="skills-box-title">Other cool skills</p>
+					<div class="skills-mini-box">
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">
+							<div class="skills-box-logo">
+								<img id = "c-logo" src="/content/img/skills/Latex_logo.png" alt="C logo">
+								<p id ="c-logo-text" class="skills-mini-title">
+									LaTeX
+								</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
-			
-			
-			
+		</div>
+	</div>
+
+	<div id="contact" class="sec6">
+		<div class="content">
+			<h1>Contact me</h1>
+			<div class="contact-content">
+				<div class="contact-all-box">
+					<a class="contact-l" href="https://www.linkedin.com/in/alexandre-gu%C3%A9n%C3%A9gan-187b4624b/" target="_blank">
+						<div class="contact-box">
+							<img id="logo-linkedin" src="/content/img/contact/linkedin_logo.png" alt="linkedin contact">
+						</div>
+					</a>	
+					<a class="contact-l" href="https://github.com/Alexandre-gng" target="_blank">
+						<div class="contact-box">
+							<img id="logo-github" src="/content/img/contact/github_logo.png" alt="linkedin contact">
+						</div>
+					</a>
+					<a class="contact-l" href="mailto:alexandre.guenegan@gmail.com" target="_blank" id ="last-box">
+						<div class="contact-box">
+							<img id="logo-email" src="/content/img/contact/email_logo.png" alt="linkedin contact">
+						</div>
+					</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div id="last" class="sec7">
+		<div class="last-content">
+			<p>
+				Hope you liked this (quite) responsive site, you can check the repository 
+				<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank"> here</a>
+			</p>
 		</div>
 	</div>
 </body>
+
+
+	<script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+	</script>
+</html>
+
+
