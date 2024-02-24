@@ -209,7 +209,7 @@
         background-position: center center;
     }
     #chrome_extension {
-        background: url("content/img/background-chrome-extension.png");
+        background: url("/content/img/background-chrome-extension.png");
         background-size: cover;
         background-position: center center;
     }
