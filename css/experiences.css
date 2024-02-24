@@ -28,7 +28,7 @@
     text-align: center;
     position: relative;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .sec4 img {
     width: 100%;
@@ -129,10 +129,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 30px;
     }
     .sec4 .experiences-box-text {
         align-items: center;
-        padding-top: 110px;
         text-justify:justify;
     }
     .sec4 .experiences-box {
@@ -172,8 +172,9 @@
     .sec4 .experiences {
         align-items: center;
         text-align: center;
+        margin-bottom: 15px;
     }
-    .sec4 .experiences-box-text {
+    .sec4 .experiences-box-text{
         align-items: center;
         margin: auto;
         border: 0;
@@ -183,7 +184,14 @@
         position: relative;
         background-repeat: no-repeat;
         background-size: 30%;
-
+        text-align: justify;
+    }
+    #AVC {
+        background: url("/content/img/background-photo_experience2.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+    #CHV {
         background: url("/content/img/background-photo_experience1.JPG");
     }
     .sec4 .experiences-box {
