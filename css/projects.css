@@ -140,10 +140,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 40px;
     }
     .sec3 .project-box-text {
         align-items: center;
-        padding-top: 110px;
         text-justify:justify;
     }
     .sec3 .project-box {
@@ -189,6 +189,7 @@
     .sec3 .project {
         align-items: center;
         text-align: center;
+        margin-bottom: 70px;
     }
     .sec3 .project-box-text {
         align-items: center;
@@ -200,14 +201,26 @@
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 30%;
-        background: url("/content/img/background-site.png");
+        text-align: justify;
+    }
+    #portefolio {
+        background: url("/content/img/background-site.PNG");
+        background-size: cover;
+        background-position: center center;
+    }
+    #chrome_extension {
+        background: url("/content/img/background-chrome-extension.png");
+        background-size: cover;
+        background-position: center center;
     }
     .sec3 .project-box {
         align-items: center;
         text-align: center;
+        margin-top:0px;
     }
+    /* DOUTEUX     */
     .sec3 .project-image {
+        display: flex;
         padding: 10px 30px;
         background-color: #467ebb; 
         color: white;
