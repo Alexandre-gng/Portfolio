@@ -187,12 +187,12 @@
         text-align: justify;
     }
     #AVC {
-        background: url("/content/img/background-photo_experience2.jpg");
+        background: url("content/img/background-photo_experience2.jpg");
         background-size: cover;
         background-position: center center;
     }
     #CHV {
-        background: url("/content/img/background-photo_experience1.JPG");
+        background: url("content/img/background-photo_experience1.JPG");
     }
     .sec4 .experiences-box {
         align-items: center;
