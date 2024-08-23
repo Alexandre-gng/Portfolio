@@ -204,12 +204,12 @@
         text-align: justify;
     }
     #portefolio {
-        background: url("../content/img/background-site.png");
+        background: url("/content/img/background-site.PNG");
         background-size: cover;
         background-position: center center;
     }
     #chrome_extension {
-        background: url("../content/img/background-chrome-extension.png");
+        background: url("/content/img/background-ChessAI.png");
         background-size: cover;
         background-position: center center;
     }
