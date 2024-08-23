@@ -83,10 +83,18 @@
     width: 115px;
     margin: auto;
 }
+#html5-logo-text {
+    position: relative;
+    top: 06px;
+}
 #css-logo {
     height: 120px;
     width: 105px;
     margin: auto;
+}
+#css-logo-text {
+    position: relative;
+    top: 05px;
 }
 #bootstrap-logo {
     height: 110px;
@@ -104,10 +112,25 @@
     position: relative;
     top: 17px;
 }
+#cpp-logo {
+    position: relative;
+    top: 0px;
+    height: 115px;
+    width: 100px;
+    margin: auto;
+}
+#cpp-logo-text {
+    position: relative;
+    top: 05px;
+}
 #python-logo {
     height: 110px;
     width: 110px;
     margin: auto;
+}
+#python-logo-text {
+    position: relative;
+    top: 07px;
 }
 @media screen and (min-width: 1200px) {
     .sec5 .skills-content {
