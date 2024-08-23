@@ -7,7 +7,7 @@
 	<title> Portefolio A.G</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.38" />
-	<link rel="icon" href="img/icon_site.png">
+	<link rel="icon" href="./img/icon_site.png">
 	
 	<!--Fonts google-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,6 @@
 	<link rel="stylesheet" href="css/experiences.css">
 	<link rel="stylesheet" href="css/skills.css">
 	<link rel="stylesheet" href="css/contact.css">
-	<!-- JS files-->
-	<link rel="stylesheet" href="js/interactions.js">
 </head>
 
 <body>
@@ -70,17 +68,16 @@
 						Hello, i'm a french student at 
 						<a class="lien" href="https://www.efrei.fr/" target="_blank">
 							EFREI PARIS</a>, an engineering school specialized in computer science. 
-						I'm 18 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
+						I'm 20 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
 						knowledge of maths and physics. 
 					</p>
 					<p>
 						I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
-						Conway's Game of Life (<a class="lien" href="#projects">see my projects</a>).
+						physics simulation (<a class="lien" href="#projects">see my projects</a>).
 					</p>
 					<p>
-						I am always looking for challenges by starting weirds and hards projects, and never limitating them by 
-						my knowledge by doing deep search. Thus, i frequently learn new tools and technologies in order to finish them,
-						and never give up. 
+						I am always looking for challenges by starting projects on subjects that i know nothing about, and never limit them by 
+							my knowledge by doing a deep search. Thus, i frequently learn new tools and technologies in order to satisfy my curiosity.
 					</p>
 				</div>
 				<div class="about-me-photo">
@@ -100,19 +97,19 @@
 			<div class="project p1">
 				<div class="project-box">
 					<h2>
-						Chrome extension to never give up
+						Chess AI
 					</h2>
 					<p class="project-box-year"> 
 						2024 • Personnal project
 					</p>
 					<p class= "project-box-text" id="chrome_extension">
-						I made a Chrome extension that display a motivation video from Matsuoka Shuzo everytime you open a new tab.
+						This project is a basic chess AI using alpha-beta prunning and PeSTO evaluation.
 					<p>
 				</div>
 				<div class="video">
-					<a href="https://github.com/Alexandre-gng/Chrome-extension---NEVER-GIVE-UP-" target="_blank">
+					<a href="https://github.com/Alexandre-gng/Chess-AI" target="_blank">
 						<video id="vid1" width="448" height="189" class="video" loop="" muted="" autoplay="">
-							<source src="content/video/video_Chrome_extension.mp4" type="video/mp4">
+							<source src="content/video/video_chessAI.mp4" type="video/mp4">
 							Your browser do not support html5 video
 						</video>
 					</a>
@@ -148,8 +145,24 @@
 		<div class="content">
 			<h1>Experiences</h1>
 		</div>
-		
+
 		<div class="experiences p1">
+			<div class="experiences-box">
+				<p class="experiences-box-year"> 
+					2023 - 2024 • student job
+				</p>
+				<p class= "experiences-box-text" id="CHV">
+					Student job at the hospital André Mignot as a cleaner or in the administrative staff during summer.
+				<p>
+			</div>
+			<div class="image">
+				<a href="https://www.ch-versailles.fr/accueil.aspx" target="_blank">
+					<img src="/content/img/photo_experience1.JPG" alt="hospital image">
+				</a>
+			</div>
+		</div>
+
+		<div class="experiences p2">
 			<div class="experiences-box">
 				<p class="experiences-box-year"> 
 					2024 • internship
@@ -160,26 +173,11 @@
 			</div>
 			<div class="image">
 				<a href="https://www.auvieuxcampeur.fr/" target="_blank">
-					<img src="content/img/photo_experience2.jpg" alt="shop image">
+					<img src="/content/img/photo_experience2.jpg" alt="shop image">
 				</a>
 			</div>
 		</div>
-
-		<div class="experiences p2">
-			<div class="experiences-box">
-				<p class="experiences-box-year"> 
-					2023 • student job
-				</p>
-				<p class= "experiences-box-text" id="CHV">
-					First job, at the psychiatric hospital André Mignot, as a cleaner during summer. 
-				<p>
-			</div>
-			<div class="image">
-				<a href="https://www.ch-versailles.fr/accueil.aspx" target="_blank">
-					<img src="content/img/photo_experience1.JPG" alt="hospital image">
-				</a>
-			</div>
-		</div>
+		
 	</div>
 
 	<div class="sec5" id ="my-skills">
@@ -191,17 +189,27 @@
 					<div class="skills-mini-box">
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
 							<div class="skills-box-logo">
-								<img id = "c-logo" src="content/img/skills/c_logo.png" alt="C logo">
+								<img id = "c-logo" src="/content/img/skills/c_logo.png" alt="C logo">
 								<p id ="c-logo-text" class="skills-mini-title">
 									C
 								</p>
 							</div>
 						</a>
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id = "cpp-logo" src="/content/img/skills/c++_logo.png" alt="C logo">
+									<p id ="cpp-logo-text" class="skills-mini-title">
+										C++
+									</p>
+								</div>	
+							</div>
+						</a>
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/python_(programming_language)" target="_blank">
 							<div class="skills-box-logo">
 								<div class="skills-box-logo-content">
-									<img id = "python-logo" src="content/img/skills/python_logo.png" alt="C logo">
-									<p class="skills-mini-title">
+									<img id = "python-logo" src="/content/img/skills/python_logo.png" alt="C logo">
+									<p id = "python-logo-text" class="skills-mini-title">
 										Python
 									</p>
 								</div>	
@@ -215,8 +223,8 @@
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/CSS" target="_blank">
 							<div class="skills-box-logo">
 								<div class="skills-box-logo-content">
-									<img id = "html5-logo"src="content/img/skills/html5_logo.png" alt="html5 logo">
-									<p class="skills-mini-title">
+									<img id = "html5-logo"src="/content/img/skills/html5_logo.png" alt="html5 logo">
+									<p id = "html5-logo-text" class="skills-mini-title">
 										HTML
 									</p>
 								</div>	
@@ -226,7 +234,7 @@
 							<div class="skills-box-logo">
 								<div class="skills-box-logo-content">
 									<img id="css-logo" src="content/img/skills/css3_logo.png" alt="CSS3 logo">
-									<p class="skills-mini-title">
+									<p id = "css-logo-text"class="skills-mini-title">
 										CSS
 									</p>
 								</div>
@@ -235,8 +243,8 @@
 						<a class="skills_link" href="https://getbootstrap.com/" target="_blank">
 							<div class="skills-box-logo">
 								<div class="skills-box-logo-content">
-									<img id="bootstrap-logo" src="content/img/skills/bootstrap_logo.png" alt="CSS3 logo">
-									<p class="skills-mini-title">
+									<img id="bootstrap-logo" src="/content/img/skills/bootstrap_logo.png" alt="CSS3 logo">
+									<p id = "html5-logo-text" class="skills-mini-title">
 										Bootstrap
 									</p>
 								</div>	
@@ -251,7 +259,7 @@
 					<div class="skills-mini-box">
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">
 							<div class="skills-box-logo">
-								<img id = "c-logo" src="content/img/skills/Latex_logo.png" alt="C logo">
+								<img id = "c-logo" src="/content/img/skills/Latex_logo.png" alt="C logo">
 								<p id ="c-logo-text" class="skills-mini-title">
 									LaTeX
 								</p>
@@ -259,7 +267,7 @@
 						</a>
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">
 							<div class="skills-box-logo">
-								<img id = "c-logo" src="content/img/skills/climbing-logo.png" alt="C logo">
+								<img id = "c-logo" src="/content/img/skills/climbing-logo.png" alt="C logo">
 								<p id ="c-logo-text" class="skills-mini-title">
 									Climbing
 								</p>
@@ -278,17 +286,17 @@
 				<div class="contact-all-box">
 					<a class="contact-l" href="https://www.linkedin.com/in/alexandre-gu%C3%A9n%C3%A9gan-187b4624b/" target="_blank">
 						<div class="contact-box">
-							<img id="logo-linkedin" src="content/img/contact/linkedin_logo.png" alt="linkedin contact">
+							<img id="logo-linkedin" src="/content/img/contact/linkedin_logo.png" alt="linkedin contact">
 						</div>
 					</a>	
 					<a class="contact-l" href="https://github.com/Alexandre-gng" target="_blank">
 						<div class="contact-box">
-							<img id="logo-github" src="content/img/contact/github_logo.png" alt="linkedin contact">
+							<img id="logo-github" src="/content/img/contact/github_logo.png" alt="linkedin contact">
 						</div>
 					</a>
 					<a class="contact-l" href="mailto:alexandre.guenegan@gmail.com" target="_blank" id ="last-box">
 						<div class="contact-box">
-							<img id="logo-email" src="content/img/contact/email_logo.png" alt="linkedin contact">
+							<img id="logo-email" src="/content/img/contact/email_logo.png" alt="linkedin contact">
 						</div>
 					</a>
 				</div>	
