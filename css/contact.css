@@ -2,7 +2,7 @@
     margin-top: 0px;
     background-color: white;
     overflow: auto;
-	min-height: 50vh;
+	min-height: 47vh;
     align-items: center;
 }
 .contact-all-box {
@@ -10,8 +10,10 @@
     flex-direction: row;
     gap: 6%;
     justify-content: center;
+    align-items: center;
 }
 .sec6 .contact-content {
+    height: 100Px;
     align-items: center;
     margin: auto
 }
@@ -50,9 +52,6 @@
     left: 1px;
 }
 
-#last-box {
-    margin-bottom: 50px;
-}
 
 .contact-box:hover {
     transition: 0.4s ease;
@@ -74,7 +73,7 @@
     margin-top: 0px;
     background-color: #4d89c9;
     overflow: auto;
-	min-height: 15vh;
+	min-height: 13vh;
     text-align: center;
     overflow: hidden
 }

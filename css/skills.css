@@ -35,7 +35,7 @@
     margin-right: 5vw;
     padding: 40px;
     overflow: auto;
-	min-height: 60vh;
+	min-height: 56vh;
 }
 .sec5 .skills-mini-box {
     display: flex;
@@ -132,6 +132,28 @@
     position: relative;
     top: 07px;
 }
+#docker-logo {
+    height: 95px;
+    width: 110px;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+#opengl-logo {
+    height: 120px;
+    width: 110px;
+    margin: auto;
+}
+#sql-logo {
+    height: 100px;
+    width: 90px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+#skills-cool {
+    min-height: auto;
+}
+
 @media screen and (min-width: 1200px) {
     .sec5 .skills-content {
         margin-bottom: 50px;

@@ -21,6 +21,16 @@ header {
 	align-items: center;
 }
 
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: top 0.3s ease-in-out;
+	z-index: 1000;
+}
+
+
 .navbar {
 	position: absolute;
 	height: 14vh;

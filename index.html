@@ -4,16 +4,11 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Portefolio A.G</title>
+	<title> portfolio A.G</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.38" />
 	<link rel="icon" href="./img/icon_site.png">
 	
-	<!--Fonts google-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-		
 	<!-- CSS files-->
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/home.css">
@@ -44,7 +39,7 @@
 			<img src="content/img/hamburger_menu_logo.png" alt="menu hamburger logo" class="menu-hamburger">
 		</nav>
 	</header>
-
+	
 	<div class="sec1" id = "home">
 		<div class = "container">
 			<p class ="hello_text" id="hello_text1">Hello, my name is </p>
@@ -68,16 +63,17 @@
 						Hello, i'm a french student at 
 						<a class="lien" href="https://www.efrei.fr/" target="_blank">
 							EFREI PARIS</a>, an engineering school specialized in computer science. 
-						I'm 20 and I create things during my free time. I really like developping programs in order to simplify tasks or apply my 
-						knowledge of maths and physics. 
+						I'm 21 and I really like developping programs in order to apply my knowledge of maths 
+						and physics.
 					</p>
 					<p>
 						I am constantly trying to learn new things in science. For example, I'm currently focussing on neural network and 
 						physics simulation (<a class="lien" href="#projects">see my projects</a>).
+						I also took optimization courses at <a href="https://cnam-idf.fr/">CNAM</a>, wich reinforced my interests in computational theory and operations research.
 					</p>
 					<p>
-						I am always looking for challenges by starting projects on subjects that i know nothing about, and never limit them by 
-							my knowledge by doing a deep search. Thus, i frequently learn new tools and technologies in order to satisfy my curiosity.
+						What passionnate me the most about science is understanding how things work, from its theoritical basis to its practical applications.
+						I am also very interested in how research and scientific method can be used to improve our daily life.
 					</p>
 				</div>
 				<div class="about-me-photo">
@@ -94,6 +90,51 @@
 					Projects
 				</h1>
 			</div>
+			<div class="project p1">
+				<div class="project-box">
+					<h2>
+						Physics Engine
+					</h2>
+					<p class="project-box-year"> 
+						2025 • Personnal project
+					</p>
+					<p class= "project-box-text" id="chrome_extension">
+						A physics engine written in C++ using the Position Based Dynamics approach,
+						allowing a cloth simulation with stretching constraint.
+					<p>
+				</div>
+				<div class="video">
+					<a href="https://github.com/Alexandre-gng/Physic-Engine-Charlotte" target="_blank">
+						<video id="vid1" width="448" height="189" class="video" loop="" muted="" autoplay="">
+							<source src="content/video/video_charlotte.mp4" type="video/mp4">
+							Your browser do not support html5 video
+						</video>
+					</a>
+				</div>
+			</div>
+
+			<div class="project p2">
+				<div class="project-box">
+					<h2>
+						Sentiment Analysis
+					</h2>
+					<p class="project-box-year"> 
+						2024 • School project
+					</p>
+					<p class= "project-box-text" id="portfolio">
+						Using a linear SVM, this project can predict the sentiment of a movie review.
+					<p>
+				</div>
+				<div class="video">
+					<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank">
+						<video id="vid1" width="448" height="189" class="video" loop="" muted="" autoplay="">
+							<source src="content/video/video_sentimentA.mp4" type="video/mp4">
+							Your browser do not support html5 video
+						</video>
+					</a>
+				</div>
+			</div>
+			
 			<div class="project p1">
 				<div class="project-box">
 					<h2>
@@ -115,29 +156,6 @@
 					</a>
 				</div>
 			</div>
-
-
-			<div class="project p2">
-				<div class="project-box">
-					<h2>
-						This site
-					</h2>
-					<p class="project-box-year"> 
-						2023 • Personnal project
-					</p>
-					<p class= "project-box-text" id="portefolio">
-						During boring holidays I decided to create my own website, and this portefolio has been created. 
-					<p>
-				</div>
-				<div class="video">
-					<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank">
-						<video id="vid1" width="448" height="189" class="video" loop="" muted="" autoplay="">
-							<source src="content/video/video_portfolio.mp4" type="video/mp4">
-							Your browser do not support html5 video
-						</video>
-					</a>
-				</div>
-			</div>
 		</div>
 	</div>
 
@@ -149,10 +167,10 @@
 		<div class="experiences p1">
 			<div class="experiences-box">
 				<p class="experiences-box-year"> 
-					2023 - 2024 • student job
+					2023 - 2024 • Summer job
 				</p>
 				<p class= "experiences-box-text" id="CHV">
-					Student job at the hospital André Mignot as a cleaner or in the administrative staff during summer.
+					Summer job at the hospital André Mignot as a cleaner or in the administrative staff during summer.
 				<p>
 			</div>
 			<div class="image">
@@ -216,7 +234,40 @@
 							</div>
 						</a>
 					</div>
+					
+					<div class="skills-mini-box">
+						<a class="skills_link" href="https://www.docker.com/" target="_blank">
+							<div class="skills-box-logo">
+								<img id = "docker-logo" src="content/img/skills/docker-logo.png" alt="Docker logo">
+								<p id ="c-logo-text" class="skills-mini-title">
+									Docker
+								</p>
+							</div>
+						</a>
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/OpenGL" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id = "opengl-logo" src="content/img/skills/opengl_logo.png" alt="OpenGL logo">
+									<p id ="cpp-logo-text" class="skills-mini-title">
+										OpenGL
+									</p>
+								</div>	
+							</div>
+						</a>
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/SQL" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id = "sql-logo" src="content/img/skills/sql_logo.png" alt="SQL logo">
+									<p id ="sql-logo-text" class="skills-mini-title">
+										SQL
+									</p>
+								</div>	
+							</div>
+						</a>
+					</div>
 				</div>
+
+
 				<div class="skills-box">
 					<p class="skills-box-title">Web development</p>
 					<div class="skills-mini-box">
@@ -227,7 +278,7 @@
 									<p id = "html5-logo-text" class="skills-mini-title">
 										HTML
 									</p>
-								</div>	
+								</div>
 							</div>
 						</a>
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/CSS" target="_blank">
@@ -250,24 +301,37 @@
 								</div>	
 							</div>
 						</a>
-					</div>	
+					</div>
+
+					<div class="skills-mini-box">
+						<a class="skills_link" href="https://en.wikipedia.org/wiki/Flask_(web_framework)" target="_blank">
+							<div class="skills-box-logo">
+								<div class="skills-box-logo-content">
+									<img id = "python-logo"src="content/img/skills/flask_logo.png" alt="Flask logo">
+									<p id = "html5-logo-text" class="skills-mini-title">
+										Flask
+									</p>
+								</div>	
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="skills-content">
-				<div class="skills-box" id="skills-software">
+				<div class="skills-box" id="skills-cool">
 					<p class="skills-box-title">Other cool skills</p>
 					<div class="skills-mini-box">
 						<a class="skills_link" href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">
 							<div class="skills-box-logo">
-								<img id = "c-logo" src="content/img/skills/Latex_logo.png" alt="C logo">
+								<img id = "c-logo" src="content/img/skills/Latex_logo.png" alt="LaTeX logo">
 								<p id ="c-logo-text" class="skills-mini-title">
 									LaTeX
 								</p>
 							</div>
 						</a>
-						<a class="skills_link" href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">
+						<a class="skills_link" href="https://bleau.info/profiles/alex.le.foufou" target="_blank">
 							<div class="skills-box-logo">
-								<img id = "c-logo" src="content/img/skills/climbing-logo.png" alt="C logo">
+								<img id = "c-logo" src="content/img/skills/climbing-logo.png" alt="Climbing logo">
 								<p id ="c-logo-text" class="skills-mini-title">
 									Climbing
 								</p>
@@ -281,7 +345,7 @@
 
 	<div id="contact" class="sec6">
 		<div class="content">
-			<h1>Contact me</h1>
+			<h1>Contact</h1>
 			<div class="contact-content">
 				<div class="contact-all-box">
 					<a class="contact-l" href="https://www.linkedin.com/in/alexandre-gu%C3%A9n%C3%A9gan-187b4624b/" target="_blank">
@@ -309,22 +373,30 @@
 			<p>
 				Hope you liked this (quite) responsive site, you can check the repository 
 				<a href="https://github.com/Alexandre-gng/Portfolio" target="_blank"> here</a>
-				<br>
-				Site inspired by <a href="https://www.angeluriot.com/portfolio/" target="_blank"> Angel Uriot </a>
 			</p>
 		</div>
 	</div>
+	<script>
+		let lastScrollTop = 0;
+		const navbar = document.getElementById("navbar");
+
+		window.addEventListener("scroll", function () {
+			const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+			if (scrollTop > lastScrollTop) {
+				// Scroll vers le bas -> on cache le header
+				navbar.style.top = "-100px";
+			} else {
+				// Scroll vers le haut -> on montre le header
+				navbar.style.top = "0";
+			}
+
+			lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Évite les valeurs négatives
+		}, false);
+	</script>
 </body>
 
 
-	<script>
-		const menuHamburger = document.querySelector(".menu-hamburger")
-        const navLinks = document.querySelector(".nav-links")
- 
-        menuHamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        })
-	</script>
 </html>
 
 
