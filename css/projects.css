@@ -103,7 +103,7 @@
     */
     .sec3 .p1 .project-box {
         position: relative;
-        left: 40px;
+        left: 10px;
         bottom: 10px;
         z-index: 1;
     }
@@ -113,7 +113,7 @@
     }
     .sec3 .p1 .project-box {
         position: relative;
-        left: 40px;
+        left: 10px;
         bottom: 10px;
         z-index: 1;
     }
@@ -124,7 +124,7 @@
 
     .sec3 .p2 .project-box {
         position: relative;
-        right: 40px;
+        right: 10px;
         bottom: 10px;
         z-index: 1;
     }

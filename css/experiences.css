@@ -20,8 +20,15 @@
 }
 .sec4 .experiences-box-year {
     font-size: 1.5em;
-    color: rgb(214, 149, 27)
+    color: rgb(214, 149, 27);
+    margin-bottom: 7px;
 }
+.sec4 .experience-title {
+    font-size: 2em;
+    color: rgb(214, 149, 27);
+    font-weight: bold;
+}
+
 .sec4 .experiences {
     display: flex;
     flex-direction: row;
@@ -93,17 +100,7 @@
 @media screen and (min-width:1200px) {
     .sec4 .p1 .experiences-box {
         position: relative;
-        left: 40px;
-        bottom: 10px;
-        z-index: 1;
-    }
-    .sec4 .p1 img {
-        position: relative;
-        right: 20px;
-    }
-    .sec4 .p1 .experiences-box {
-        position: relative;
-        left: 40px;
+        left: 10px;
         bottom: 10px;
         z-index: 1;
     }
@@ -113,7 +110,7 @@
     }
     .sec4 .p2 .experiences-box {
         position: relative;
-        right: 40px;
+        right: 10px;
         bottom: 10px;
         z-index: 1;
     }
